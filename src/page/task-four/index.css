@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.list {
+  height: auto;
+  box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+  align-items: center;
+}
+.container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img_box {
+  max-width: 400px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: #efefef;
+}
+
+.inputs{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius:5px;
+    border:none;
+    border: 1px solid black;
+}
